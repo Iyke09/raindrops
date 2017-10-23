@@ -29,6 +29,9 @@ describe('Raindrop-Speak', () => {
     it('should return invalid input when the input is of type string', () => {
       assert.equal(myApp.rainDrop('hello'),"please enter a number");
     });
+    it('should return invalid input when the input is null', () => {
+      assert.equal(myApp.rainDrop(null),"please enter a number");
+    });
     it('should return invalid input when the input is of type is less than 0', () => {
       assert.equal(myApp.rainDrop(-890),"please enter a value > 0");
     });
