@@ -12,7 +12,7 @@ rainDrop: (num) => {
   if(num === 1){
     return 1
   }
-  if(num < 0){
+  if(num <= 0){
     return 'please enter a value > 0'
   }
   let number = num;
