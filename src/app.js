@@ -32,6 +32,7 @@ module.exports = {
         result.push(x)
         rainDropArr.push('Pling')
       }
+      //check if x = 5 and is in result array
       if(x === 5 && result.indexOf(x) === -1){
         result.push(x)
         rainDropArr.push('Plang')
